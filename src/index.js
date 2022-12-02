@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import ReadInput from './ReadInput';
 import ClassDemo from './ClassDemo';
 import PropsDemo from './PropsDemo';
+import PropsExample from './PropsExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PropsDemo/>
+    <PropsExample/>
   </React.StrictMode>
 );
 

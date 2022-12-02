@@ -1,4 +1,5 @@
-
+import ChildDemo from "./ChildDemo"
+import ChildDemo1 from "./ChildDemo1"
 function PropsDemo(){
 
     let message="Hello React!!!"
@@ -13,24 +14,7 @@ function PropsDemo(){
     )
 }
 
-function ChildDemo({message}){
 
-    return(
-        <div>
-            <h2>Child Component</h2>
-            <p>Message : {message}</p>
-        </div>
-    )
-}
 
-function ChildDemo1({message}){
-
-    return(
-        <div>
-            <h2>Child Component</h2>
-            <p>Message : {message}</p>
-        </div>
-    )
-}
 
 export default PropsDemo
