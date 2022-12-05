@@ -7,12 +7,13 @@ import ReadInput from './ReadInput';
 import ClassDemo from './ClassDemo';
 import PropsDemo from './PropsDemo';
 import PropsExample from './PropsExample';
+import ComponentLifeCycle from './ComponentLifeCycle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <PropsExample/>
-  </React.StrictMode>
+  
+    <ComponentLifeCycle/>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function

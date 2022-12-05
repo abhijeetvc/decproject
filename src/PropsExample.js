@@ -13,6 +13,9 @@ function PropsExample(){
         city:''
     }
 
+
+    console.log('hiiiiiiiiii');
+
     const[user,setUser]=React.useState(userObj)
     const[userList,setUserList]=React.useState([])
 
@@ -24,6 +27,7 @@ function PropsExample(){
     const addData=()=>{
         setUserList([...userList,user])
         document.getElementById("myform").reset()
+        setUser(userObj)
     }
 
     return(
