@@ -8,11 +8,13 @@ import ClassDemo from './ClassDemo';
 import PropsDemo from './PropsDemo';
 import PropsExample from './PropsExample';
 import ComponentLifeCycle from './ComponentLifeCycle';
+import UseEffectDemo from './UseEffectDemo';
+import UseEffectExample from './UseEffectExample';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <ComponentLifeCycle/>
+    <UseEffectExample/>
  
 );
 
