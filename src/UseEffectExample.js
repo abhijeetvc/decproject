@@ -56,7 +56,6 @@ function UseEffectExample(){
 
                 <label>City : </label>
                 <input type='text' name="city" onChange={handleInput}/>
-
                 <button type="button" onClick={addData}>Add</button>
 
             </form>

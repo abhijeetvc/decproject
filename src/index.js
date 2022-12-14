@@ -10,11 +10,12 @@ import PropsExample from './PropsExample';
 import ComponentLifeCycle from './ComponentLifeCycle';
 import UseEffectDemo from './UseEffectDemo';
 import UseEffectExample from './UseEffectExample';
+import CallBackEvent from './CallBackEvent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <UseEffectExample/>
+    <App/>
  
 );
 
