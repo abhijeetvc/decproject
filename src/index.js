@@ -13,11 +13,12 @@ import UseEffectExample from './UseEffectExample';
 import CallBackEvent from './CallBackEvent';
 import ContextDemo from './ContextDemo';
 import ApiCall from './ApiCall';
+import UseMemoDemo from './UseMemoDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <ApiCall/>
+    <UseMemoDemo/>
  
 );
 
