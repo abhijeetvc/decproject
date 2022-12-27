@@ -14,11 +14,12 @@ import CallBackEvent from './CallBackEvent';
 import ContextDemo from './ContextDemo';
 import ApiCall from './ApiCall';
 import UseMemoDemo from './UseMemoDemo';
+import UseReducerHook from './UseReducerHook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <UseMemoDemo/>
+    <UseReducerHook/>
  
 );
 
